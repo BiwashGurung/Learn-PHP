@@ -5,6 +5,8 @@
 <p>Example<br>
     Variable with local scope:</p>
 <?php
+/*You can have local variables with the same name in different functions,
+ because local variables are only recognized by the function in which they are declared. */
 function localScope(){
     $x=1111;
     // variable ra local scope use gareko
